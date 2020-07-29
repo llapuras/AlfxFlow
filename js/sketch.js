@@ -97,7 +97,7 @@ function PatternScatter(){
   drawTimes = 10;
   flowerAmount = 200;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function PatternMess(){
@@ -110,7 +110,7 @@ function PatternMess(){
   drawTimes = 5;
   flowerAmount = 1;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function PatternRain(){
@@ -123,7 +123,7 @@ function PatternRain(){
   drawTimes = 10;
   flowerAmount = 50;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function PatternFeather(){
@@ -136,7 +136,7 @@ function PatternFeather(){
   drawTimes = 1;
   flowerAmount = 200;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function PatternWatercolor(){
@@ -149,7 +149,7 @@ function PatternWatercolor(){
   drawTimes = 3;
   flowerAmount = 200;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function PatternParticle(){
@@ -162,7 +162,7 @@ function PatternParticle(){
   drawTimes = 10;
   flowerAmount = 200;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function PatternHana(){
@@ -175,7 +175,7 @@ function PatternHana(){
   drawTimes = 1;
   flowerAmount = 10;
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 
@@ -246,7 +246,7 @@ function ColorTest001(){
   //bgcolor    = "rgb(255, 255, 255)";
   //canvas.style("background-color", bgcolor);
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function ColorTest002(){
@@ -259,7 +259,7 @@ function ColorTest002(){
   //bgcolor    = "rgb(255, 255, 255)";
   //canvas.style("background-color", bgcolor);
 
-  DrawAgain();
+  //DrawAgain();
 }
 
 function ColorTest003(){
@@ -271,7 +271,7 @@ function ColorTest003(){
 
   //bgcolor    = "rgb(  0,   0,   0)";
   //canvas.style("background-color", bgcolor);
-  DrawAgain();
+  //DrawAgain();
 }
 
 function ColorTest004(){
@@ -283,7 +283,7 @@ function ColorTest004(){
 
   //bgcolor    = "rgb(  0,   0,   0)";
   //canvas.style("background-color", bgcolor);
-  DrawAgain();
+  //DrawAgain();
 }
 
 function ColorTest005(){
@@ -295,7 +295,7 @@ function ColorTest005(){
 
   //bgcolor    = "rgb(  0,   0,   0)";
   //canvas.style("background-color", bgcolor);
-  DrawAgain();
+  //DrawAgain();
 }
 
 
@@ -322,11 +322,12 @@ function setup(){
   bg = createGraphics(window.innerWidth, window.innerHeight);
   bg.noFill();
   //DrawGridsBG();
-  setBackgroundColor();
+ 
   draw();
 }
 
 function draw(){
+  setBackgroundColor();
   resizeCan();
   for(let i=0; i<flowerAmount; i++){
     let x = random(random(window.innerWidth));
