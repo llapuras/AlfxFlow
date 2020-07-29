@@ -13,4 +13,6 @@
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/Hanabi.png)
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/snow.png)
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/flow.png)
+![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/rong.png)
+![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/messmess.png)
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/vermilion.png)
