@@ -72,10 +72,10 @@ function makeControls() {
   sline3.parent(controlWrapper);
   makeButton("模式·洒", controlWrapper, PatternScatter);
   makeButton("模式·羽", controlWrapper, PatternFeather);
-  makeButton("模式·彩", controlWrapper, PatternWatercolor);
-  makeButton("模式·雨", controlWrapper, PatternRain);
+  makeButton("模式·绒", controlWrapper, PatternHana);
   makeButton("模式·乱", controlWrapper, PatternMess);
-
+  makeButton("模式·颗粒", controlWrapper, PatternParticle);
+  makeButton("模式·雨", controlWrapper, PatternRain);
 
   makeButton("单次绘制", controlWrapperRight, DrawOnce);
   makeButton("叠加", controlWrapperRight, DrawAgain);
@@ -152,6 +152,32 @@ function PatternWatercolor(){
   DrawAgain();
 }
 
+function PatternParticle(){
+  singleStep = 2;
+  singleChildStep = 5;
+  sWeight = 1;
+  mess = 0.01;
+  singleCurve = 200;
+  flowerIntensity = 3;
+  drawTimes = 10;
+  flowerAmount = 200;
+
+  DrawAgain();
+}
+
+function PatternHana(){
+  singleStep = 2;
+  singleChildStep = 50;
+  sWeight = 1;
+  mess = 0.05;
+  singleCurve = 200;
+  flowerIntensity = 300;
+  drawTimes = 1;
+  flowerAmount = 10;
+
+  DrawAgain();
+}
+
 
 //参数设置函数
 //---------------------------------------------------------
@@ -217,7 +243,7 @@ function ColorTest001(){
   palette[2] = "rgb(255, 111, 105)";
   palette[3] = "rgb(255, 255, 255)";
   palette[4] = "rgb(136, 216, 176)";
-  bgcolor    = "rgb(255, 255, 255)";
+  //bgcolor    = "rgb(255, 255, 255)";
   canvas.style("background-color", bgcolor);
 
   DrawAgain();
@@ -230,7 +256,7 @@ function ColorTest002(){
   palette[3] = "rgb(191, 204, 227)";
   palette[4] = "rgb( 96, 118, 159)";
 
-  bgcolor    = "rgb(255, 255, 255)";
+  //bgcolor    = "rgb(255, 255, 255)";
   canvas.style("background-color", bgcolor);
 
   DrawAgain();
