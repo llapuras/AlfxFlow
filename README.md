@@ -1,6 +1,6 @@
 # 一缕
  
-[链接](https://llapuras.top/Processing)
+[试玩链接](https://llapuras.top/Processing)
 
 一个十分可爱的Processing图片生成器(๑•̀ㅂ•́)و✧
 
