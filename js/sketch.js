@@ -167,11 +167,11 @@ function PatternParticle(){
 
 function PatternHana(){
   singleStep = 2;
-  singleChildStep = 50;
+  singleChildStep = 100;
   sWeight = 1;
   mess = 0.05;
   singleCurve = 200;
-  flowerIntensity = 300;
+  flowerIntensity = 500;
   drawTimes = 1;
   flowerAmount = 10;
 
@@ -244,7 +244,7 @@ function ColorTest001(){
   palette[3] = "rgb(255, 255, 255)";
   palette[4] = "rgb(136, 216, 176)";
   //bgcolor    = "rgb(255, 255, 255)";
-  canvas.style("background-color", bgcolor);
+  //canvas.style("background-color", bgcolor);
 
   DrawAgain();
 }
@@ -257,7 +257,7 @@ function ColorTest002(){
   palette[4] = "rgb( 96, 118, 159)";
 
   //bgcolor    = "rgb(255, 255, 255)";
-  canvas.style("background-color", bgcolor);
+  //canvas.style("background-color", bgcolor);
 
   DrawAgain();
 }
@@ -270,7 +270,7 @@ function ColorTest003(){
   palette[4] = "rgb(255, 255, 255)";
 
   //bgcolor    = "rgb(  0,   0,   0)";
-  canvas.style("background-color", bgcolor);
+  //canvas.style("background-color", bgcolor);
   DrawAgain();
 }
 
@@ -282,7 +282,7 @@ function ColorTest004(){
   palette[4] = "rgb(255, 241, 82)";
 
   //bgcolor    = "rgb(  0,   0,   0)";
-  canvas.style("background-color", bgcolor);
+  //canvas.style("background-color", bgcolor);
   DrawAgain();
 }
 
@@ -294,7 +294,7 @@ function ColorTest005(){
   palette[4] = "rgb(255, 255, 255)";
 
   //bgcolor    = "rgb(  0,   0,   0)";
-  canvas.style("background-color", bgcolor);
+  //canvas.style("background-color", bgcolor);
   DrawAgain();
 }
 
