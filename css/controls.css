@@ -1,0 +1,56 @@
+/* Control styles */
+.slider, .color-picker, .input-wrapper, .notice{
+    color:#898787;
+}
+
+input {
+    cursor: pointer;
+}
+
+.button-wrapper{
+    width: 120px;
+    display: inline-block;
+}
+
+div.color-picker {
+    margin-bottom:6px;
+}
+
+#control-wrapper {
+    float: left;
+    width:12%;
+    max-height:calc(100vh - 100px);
+    padding: 0 10px 0 10px;
+    overflow-y:scroll;
+}
+
+#control-wrapper-right {
+    float: right;
+    width:10%;
+    max-height:calc(100vh - 100px);
+    padding: 0 35px 0 0px;
+    /* overflow-y:scroll; */
+}
+
+button.btn {
+    width: 150px;
+    padding: 8px;
+    margin: 10px auto;
+    background-color:rgb(255, 158, 158);
+    cursor:pointer;
+}
+
+
+.inputfield{
+    float: left;
+    width: 100px;
+}
+
+#control-wrapper a {
+    color:inherit;
+}
+
+.canvas_div {
+    float: left;
+    padding: 0 5% 0 5%;
+}
