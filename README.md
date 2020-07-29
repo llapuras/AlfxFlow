@@ -9,13 +9,8 @@
 ※操作有些反人类，不过在改了(咕~
 
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/feather.jpg)
-
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/furafura.png)
-
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/hanabi.png)
-
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/snow.png)
-
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/flow.png)
-
 ![](https://github.com/llapuras/AlfxFlow/blob/master/imgs/vermilion.png)
